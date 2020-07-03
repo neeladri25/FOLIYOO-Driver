@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout tools:context=".AssignedBookingsActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/rectangle_8"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/rectangle_6"
+        android:elevation="3dp">
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:id="@+id/foliyoo_mybooking"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="My Bookings"
+            android:textSize="20sp"
+            android:textAppearance="@style/foliyoo"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"
+            />
+
+
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/filter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rectangle_8">
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_filter_list_black_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            android:textSize="14sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/previous_bookings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/filter_layout"
+        android:visibility="visible">
+
+        <include layout="@layout/completed"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/filter_layout"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity">
+    <RelativeLayout
+        android:id="@+id/rectangle_10"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/rectangle_6"
+        android:elevation="3dp"
+        >
+
+
+
+
+        <TextView
+            android:id="@+id/foliyoo"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="Profile"
+            android:textAppearance="@style/foliyoo"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"
+            />
+
+        <Button
+            android:id="@+id/bck"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentTop="true"
+
+            />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_below="@+id/rectangle_10"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_union" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/rectangle_10"
+        android:src="@drawable/courier"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:id="@+id/textView79"
+        style="@style/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="260dp"
+        android:text="Name"
+        />
+
+    <TextView
+        android:id="@+id/textView80"
+        style="@style/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text=":"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/textView82"
+        style="@style/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="303dp"
+        android:text="Mobile Number"
+        />
+
+    <TextView
+        android:id="@+id/textView85"
+        style="@style/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="345dp"
+        android:text="Email"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/textView97"
+        style="@style/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="389dp"
+        android:text="@string/address"
+        />
+
+    <TextView
+        android:id="@+id/textView81"
+        style="@style/sivakumar_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="260dp"
+        android:text="Driver Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView84"
+        style="@style/sivakumar_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="303dp"
+        android:text="9988776655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView87"
+        style="@style/sivakumar_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="345dp"
+        android:text="name@foliyoo.com"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView99"
+        style="@style/sivakumar_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="389dp"
+        android:text="Bhubaneswar"
+        />
+
+
+    <TextView
+        android:id="@+id/textView83"
+        style="@style/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="303dp"
+        android:text=":"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView86"
+        style="@style/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:text=":"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textView89"
+        style="@style/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="389dp"
+        android:text=":"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/textView100"
+        style="@style/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="65.5dp"
+        android:text="Edit"
+        />
+
+    <Button
+        android:layout_marginTop="64dp"
+        android:id="@+id/imageButton8"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_edit_black_24dp"
+        />
+
+
+
+</RelativeLayout>

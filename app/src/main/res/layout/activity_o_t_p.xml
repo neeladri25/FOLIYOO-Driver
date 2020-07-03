@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTP">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prgrsldng"
+        android:layout_below="@+id/otp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/back__btn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backarrow" />
+
+    <TextView
+        android:id="@+id/enter_verif"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/enter_verif"
+        android:textAppearance="@style/enter_verif" />
+
+    <TextView
+        android:id="@+id/eneter_6_di"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="108dp"
+        android:text="@string/enter_6_di"
+        android:textAppearance="@style/enter_6_di"
+        android:lineSpacingExtra="5sp"
+        android:translationY="-2.3sp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/eneter_6_di"
+        android:weightSum="6"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/otpET1"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/otpET2"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/otpET3"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/otpET4"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/otpET5"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/otpET6"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:maxLength="1"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dont_receiv"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="138dp"
+        android:text="@string/dont_receiv"
+        android:textAppearance="@style/dont_receiv"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/resend_now"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="114dp"
+        android:text="@string/resend_now"
+        android:textAppearance="@style/resend_now"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/submit_clk"
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/button_loginsignup"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="SUBMIT"
+        android:textColor="#FFFF"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

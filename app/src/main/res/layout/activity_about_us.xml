@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+    <RelativeLayout
+        android:id="@+id/rectangle_7"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/rectangle_6"
+        android:elevation="3dp"
+        >
+
+        <Button
+            android:id="@+id/backback"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:id="@+id/foliyoo_aboutus"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="About Us"
+            android:textSize="20sp"
+            android:textAppearance="@style/foliyoo"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/rectangle_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    <RelativeLayout
+        android:layout_below="@+id/rectangle_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        >
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="WHO ARE WE?"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_below="@+id/txt1"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="FOLIYOO, an aggregate maker between transporter and customer, lands with the intension of shifting products with an economical and statistical way. By according to E-Logistic management system we can solve the entire communication gaps and will provide the foremost solution with an easy manner. Foliyoo believes that, needs were never an issue, it was the service that made the needs access tougher. Hence we thought up to act as an aggregate between transporter and customer to resolve this problem. Automatically, the need for a simplified transportation is solved upon."></TextView>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt2"
+            android:layout_marginTop="25dp"
+            android:textSize="15sp"
+            android:text="WHY ARE WE?"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_below="@+id/txt3"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Yes, competitors are there but an advanced and additional service will allure users to us. Foliyoo is not only thinking about user but also taking keen steps to diminish exertion of drivers by implementing such emphatic attributes. By lessening cooling time of users we can make sure about proper delivery with safety precautions. The industrial sectors like Manufacturing Industry, Distribution Industry and Retailer Industry will be taken care of with high competent. Skilled operators and professionals are with us to deliver products like Construction equipments, Chemical products, Electrical as well as electronics appliances, alcoholic beverages, Home Appliances, Machine auto parts, packaged consumer box, Petroleum paint, and Pharmaceutical products."></TextView>
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt4"
+            android:layout_marginTop="25dp"
+            android:textSize="15sp"
+            android:text="OUR VISION"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_below="@+id/txt5"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Consumer loyalty is our most extreme objective, and we meet it on numerous occasions through the steady execution of our basic beliefs, including trustworthiness, devotion and quality"></TextView>
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt6"
+            android:layout_marginTop="25dp"
+            android:textSize="15sp"
+            android:text="OUR COMMITMENT"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_below="@+id/txt7"
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:text="As we believe this content is a huge responsibility, so that we give our customer significant serenity and help anyway we can to streamline their procedures and lighten pressure where conceivable. Our experts and cordial group will always rely on commitments and make customer the top priority."></TextView>
+
+    </RelativeLayout>
+    </ScrollView>
+    </RelativeLayout>

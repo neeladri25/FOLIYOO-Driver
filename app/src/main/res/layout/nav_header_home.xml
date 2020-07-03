@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:background="#FF2315"
+    >
+    
+    <ImageView
+        android:id="@+id/img_profile"
+        android:src="@drawable/courier"
+        android:layout_marginTop="15dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="Driver Name "
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-black"
+        />
+
+        <TextView
+            android:text="9988776655"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:textSize="15sp"
+            ></TextView>
+    </LinearLayout>
+    
+    
+    
+
+</LinearLayout>

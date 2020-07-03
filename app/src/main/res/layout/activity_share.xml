@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity">
+    <RelativeLayout
+        android:id="@+id/rectangle_7"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/rectangle_6"
+        android:elevation="3dp"
+        >
+
+        <Button
+            android:id="@+id/back_bback"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:id="@+id/foliyoo_aboutus"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="Invite Friends"
+            android:textAppearance="@style/foliyoo"
+            android:textSize="20sp"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_group_290"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_below="@id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#080909"
+        android:text="@string/invite_friends"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/you_and_your"
+        android:textColor="#080909"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@id/textView2"
+        android:text="Folliyo credit for your trips"
+        android:textSize="16sp"
+        android:textColor="#080909"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview4"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        android:text="Your Code:"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_toRightOf="@id/textview4"
+        android:layout_alignBaseline="@id/textview4"
+        android:text=" AB546Y"
+        android:textSize="18sp"
+        android:textColor="#CC1313"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="228dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="38dp"
+        android:background="@drawable/background_invite"
+        android:text="INVITE NOW"
+        android:textColor="#FFFF"/>
+
+
+</RelativeLayout>

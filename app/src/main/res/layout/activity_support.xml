@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupportActivity">
+
+    <RelativeLayout
+
+        android:id="@+id/rectangle_9"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/rectangle_6"
+        android:elevation="3dp"
+        >
+
+        <Button
+            android:id="@+id/backbtnback"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:id="@+id/foliyoo_support"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="Support"
+            android:textSize="20sp"
+            android:textAppearance="@style/foliyoo"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/description"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/rectangle_9">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FOLIYOO - DRIVER"
+            style="@style/foliyoo_large"
+            android:layout_centerHorizontal="true"></TextView>
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_below="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version_1_0"
+            style="@style/version_1_0"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_below="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/revision_nu"
+            style="@style/revision_nu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"/>
+
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_below="@+id/textview3"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright"
+            style="@style/copyright_2"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview4"
+            android:text="@string/book_your_v"
+            style="@style/book_your_v"
+            android:layout_centerHorizontal="true"/>
+        
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview5"
+            android:layout_marginTop="50dp"
+            android:text="@string/contact_us"
+            style="@style/conatct_us"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/textview7"
+            android:layout_below="@+id/textview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_mail"
+            style="@style/e_mail"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="14dp"/>
+
+        <TextView
+            android:id="@+id/textview8"
+            android:layout_below="@+id/textview7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/phone_no"
+            style="@style/e_mail"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/textview9"
+            android:layout_below="@+id/textview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/e_mail_supp"
+            style="@style/e_mail_supp"
+            android:layout_marginTop="14dp"/>
+
+        <TextView
+            android:id="@+id/textview10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/mobile_number"
+            style="@style/e_mail_supp"
+            android:layout_below="@+id/textview9"
+            android:layout_marginTop="2dp"/>
+
+    <TextView
+    android:id="@+id/textview11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textview10"
+    android:layout_marginTop="70dp"
+    android:text="@string/foliyoo_tec"
+    android:layout_centerHorizontal="true"
+    style="@style/e_mail"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textview12"
+            style="@style/conatct_us"
+            android:text="@string/find_us_onl"
+            android:layout_below="@id/textview11"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"/>
+        
+        
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:weightSum="3">
+            
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_group_282"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_group_283"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_group_284"/>
+            
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

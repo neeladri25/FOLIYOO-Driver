@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/login"
+        android:textAppearance="@style/login"
+        android:lineSpacingExtra="8sp"
+        android:gravity="center"
+        android:translationY="-3.94sp"/>
+
+
+    <EditText
+        android:maxLines="1"
+        android:paddingRight="15dp"
+        android:id="@+id/email_phone_login"
+        android:layout_width="279dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/login_text"
+        android:layout_marginTop="156dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="Enter your Email/Phone No"
+        android:background="@drawable/rounded_edittext"
+        android:paddingLeft="15dp"
+        android:textSize="14sp"
+        android:textColorHint="#CFCDD5"
+        android:inputType="textEmailAddress"
+        />
+
+
+
+    <EditText
+        android:maxLines="1"
+        android:paddingRight="15dp"
+        android:id="@+id/password_login"
+        android:layout_width="279dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/email_phone_login"
+        android:background="@drawable/rounded_edittext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="218dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:hint="Enter your Password"
+        android:paddingLeft="15dp"
+        android:textSize="15sp"
+        android:textColorHint="#CFCDD5"
+        android:inputType="textPassword"/>
+    
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="0dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="270dp"
+        android:text="@string/forgot_pass"
+        android:textAppearance="@style/forgot_pass"
+        android:lineSpacingExtra="4sp"
+        android:translationY="-1.97sp"
+        android:gravity="right"
+        android:paddingRight="35dp"/>
+    
+    
+
+    <Button
+        android:id="@+id/login_click"
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/button_loginsignup"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="LOGIN"
+        android:textColor="#FFFF"
+        android:textStyle="bold"/>
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
+

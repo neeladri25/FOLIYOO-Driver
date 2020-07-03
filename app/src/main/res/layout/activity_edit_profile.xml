@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <RelativeLayout
+        android:id="@+id/rectangle_11"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/rectangle_6"
+        android:elevation="3dp"
+        >
+
+
+
+
+        <TextView
+            android:id="@+id/foliyooedit"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="Edit Profile"
+            android:textAppearance="@style/foliyoo"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"
+            />
+
+        <Button
+            android:id="@+id/clr"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_clear_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentTop="true"
+
+            />
+
+
+    </RelativeLayout>
+<ScrollView
+    android:layout_below="@+id/rectangle_11"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rectangle_11">
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+
+        android:src="@drawable/ic_union" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/editprofile_image"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="62.5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/courier"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_camera_alt_black_24dp"
+        android:layout_marginTop="125dp"
+        android:layout_centerHorizontal="true"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="45.77dp"
+        android:paddingLeft="3dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/imageView44"
+        android:layout_marginTop="30dp"
+        android:text="Name"
+        android:textAppearance="@style/editname"
+        android:lineSpacingExtra="4sp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/name"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"></EditText>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="45.77dp"
+        android:paddingLeft="3dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/editname"
+        android:layout_marginTop="20dp"
+        android:text="Phone"
+        android:textAppearance="@style/editname"
+        android:lineSpacingExtra="4sp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/editphone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/phone"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"></EditText>
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="45.77dp"
+        android:paddingLeft="3dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/editphone"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textAppearance="@style/editname"
+        android:lineSpacingExtra="4sp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/email"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"></EditText>
+
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="45.77dp"
+        android:paddingLeft="3dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/editemail"
+        android:layout_marginTop="20dp"
+        android:text="Address"
+        android:textAppearance="@style/editname"
+        android:lineSpacingExtra="4sp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/editaddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/address"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"></EditText>
+
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_alignParentBottom="true"
+       android:layout_below="@+id/editaddress"
+       android:layout_marginTop="50dp"
+       android:background="@drawable/button_loginsignup"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentLeft="true"
+       android:layout_marginRight="16dp"
+       android:layout_marginLeft="16dp"
+       android:layout_marginBottom="10dp"
+       android:textColor="@color/white"
+       android:text="SAVE"></Button>
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

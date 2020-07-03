@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:weightSum="6">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:id="@+id/recyclerview"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+        <TextView
+            android:id="@+id/from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="NIT Rourkela"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_margin="7dp"
+            android:layout_toRightOf="@id/from"
+            android:src="@drawable/ic_arrow" />
+
+        <TextView
+            android:id="@+id/to"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/from"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-33dp"
+            android:layout_toRightOf="@id/arrow"
+            android:padding="5dp"
+            android:text="Jharsuguda"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/booking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/from"
+            android:layout_alignParentBottom="true"
+            android:padding="8dp"
+            android:text="Booking ID:"
+            android:textColor="#0C0C0C"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/booking"
+            android:layout_marginTop="44dp"
+            android:layout_toRightOf="@id/booking"
+            android:text="014 20154 325"
+            android:textColor="#0C0C0C"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/booking"
+            android:layout_marginTop="-65dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="7dp"
+            android:text="Tue 24 Feb,7:00 PM"
+            android:textSize="15sp"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+
+    <!--Many times we see that texts have an image along with them to
+    their right or left. This is added with the help of the
+    drawableLeft (or drawableRight and so on) attribute-->
+
+    <ImageView
+        android:id="@+id/imgBookImage"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:src="@drawable/ic_check_circle_black_24dp" />
+
+</LinearLayout>

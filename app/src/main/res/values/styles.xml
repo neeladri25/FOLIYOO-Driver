@@ -1,0 +1,403 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/splash_bg</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="forgot_pass">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #FF2315
+        </item>
+
+    </style>
+
+    <style name="foliyoo">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="nit_rourkela">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="tue_24_feb_">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #4F4F4F
+        </item>
+
+    </style>
+
+    <style name="booking_id_">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #D62D20
+        </item>
+    </style>
+    <style name="am">
+
+        <item name="android:textSize">
+            10sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+        <style name="loading_poi">
+
+            <item name="android:textSize">
+                14sp
+            </item>
+
+            <item name="android:textColor">
+                #000000
+            </item>
+
+        </style>
+
+    <style name="dont_have_a">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="copyright_2">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="book_your_v">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="conatct_us">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="e_mail">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #4D4A59
+        </item>
+
+    </style>
+
+    <style name="e_mail_supp">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #FF6160
+        </item>
+
+    </style>
+
+    <style name="foliyoo_tec">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+
+
+    <style name="revision_nu">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+
+
+    <style name="version_1_0">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+
+    <style name="name">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="sivakumar_r">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="edit">
+
+        <item name="android:textSize">
+            13.73sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="editname">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="overall_rat">
+
+        <item name="android:textSize">
+            13.73sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+
+    <style name="foliyoo_large">
+
+        <item name="android:textSize">
+            27.42sp
+        </item>
+
+        <item name="android:textColor">
+            #FF2315
+        </item>
+
+    </style>
+
+    <style name="sign_up">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #FF2315
+        </item>
+
+    </style>
+
+
+    <style name="login">
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+    </style>
+
+    <style name="enter_regis">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="you_will_re">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="enter_verif">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="enter_6_di">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="signup">
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+    </style>
+
+    <style name="dont_receiv">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="resend_now">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #FF2315
+        </item>
+
+    </style>
+
+    <style name="set_new_pas">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+
+</resources>
